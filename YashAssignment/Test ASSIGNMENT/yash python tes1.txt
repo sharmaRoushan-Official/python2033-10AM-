@@ -1,0 +1,151 @@
+#Q1. Write a Function to classify a person’s age group: Child, Teen, Adult, senior. 
+def person_age():
+    age1=int(input("Enter age of a person "))
+    if 1<=age1<14:
+        print(f"The person with age {age1} falls under : CHILD")
+    elif 14<=age1<18:
+        print(f"The person with age {age1} falls under : TEEN")
+    elif 18<=age1<=40:
+        print(f"The person with age {age1} falls under : ADULT")
+    elif 40<=age1<=80:
+        print(f"The person with age {age1} falls under : Senior")
+    else :
+        print("invalid age ")
+person_age()
+
+
+#Q3. Write a function to check if a number is within a given range (1-100). 
+def check_range():
+    range1=int(input("Enter the number you want to check"))
+    if 1<=range1<=100 :
+        print(f"The Entered number {range1} falls under the RANGE ")
+    else :
+        print(f"Enter valid number instead of {range1}")
+check_range() 
+
+
+#Q4. Write a function to find the sum of numbers from 1 to N. 
+def sum_numbers():
+    num1=int(input("Enter number you want sum "))
+    scor1=(0)
+    for i in range(1,num1+1):
+       scor1=scor1+i
+        
+    print(f"The sum of numbers from 1 to {num1} is : {scor1}")
+sum_numbers()
+        
+
+
+#Q5. Write a function to take N users number and find the factorial of all numbers. 
+def fact_numbers():
+    num2=int(input("Enter number you want sum "))
+    scor2=(1)
+    for i in range(1,num2+1):
+        scor2=scor2*i
+        print(f"The Factorial of number {i} is : {scor2}")
+fact_numbers()
+
+
+
+#Q6. Write a function to print all numbers divisible by 7 but not by 5 from 1-100. 
+def div_num():
+    for i in range(1,101):
+        if i%7==0 and i%5!=0:
+            print(i)
+div_num()
+
+
+
+#Q7. Print a pattern star like this:
+* 
+** 
+* 
+** 
+def patt_star():
+    for i in range(1,5):
+        if i%2!=0 :
+            print(1*"*")
+        else:
+            print(2*"*")
+patt_star()
+
+
+
+#Q9. Write a function to take N user numbers and display even and odd separately and find their sum and average.
+def calculaton():
+    num5=int(input("Enter number according to you"))
+    
+    odd=[]
+    even=[]
+    sum_odd=(0)
+    sum_even=(0)
+    countodd=(0)
+    counteven=(0)
+    for i in range(1,num5+1):
+        
+        if i%2!=0:
+            countodd+=1
+            sum_odd=i+sum_odd
+            
+            odd.append(i)
+        elif i%2==0:
+            counteven+=1
+            sum_even=i+sum_even
+            even.append(i)
+    averageodd= sum_odd/countodd  
+    averageeven= sum_even/counteven
+   
+    print(f"the sum of odd numbers {odd} is :{sum_odd} and average is {averageodd}")
+    print(f"the sum of even numbers  {even} is :{sum_even} and average is {averageeven}")
+calculaton()    
+
+
+
+
+#Q10. Create a function to count the number of vowels and consonants in a string. String = “The quick brown fox jumps over the lazy dog”
+def count_vowncon():
+    String = ("The quick brown fox jumps over the lazy dog")
+    countvow=(0)
+    countcon=(0)
+    listvow=[]
+    listcon=[]
+    for i in String:
+        #print(i)
+        
+        if i in "aeiouAEIOU":
+            countvow+=1
+            listvow.append(i)
+            
+        else :
+            countcon+=1
+            listcon.append(i)
+    print(f"The list of vowels is {listvow} and total number of vowels is : {countvow}")
+    print(f"The list of consonats is {listcon} and total number of consonants is : {countcon}")
+count_vowncon()       
+
+
+
+
+#14. Write a function to display cube of numbers from 1-50 in a list. 
+def cube():
+    cubelist1=[]
+    for i in range(1,51):
+        cube1=i**3
+        #print(cube1)
+        cubelist1.append(cube1)
+    print(cubelist1)    
+cube() 
+
+
+
+#Q15. Write a function to convert Celsius to Fahrenheit. 
+def cel_ferhnite():
+    num9=int(input("Enter celcius temperature value to convert in fahrenheit"))
+    temp_ferh=((9/5)*num9)+32
+    print(f"the temperature conversion of celsius {num9} to fahrenheit is: {temp_ferh} ")
+cel_ferhnite()    
+
+
+
+
+    
