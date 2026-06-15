@@ -1,0 +1,158 @@
+#Q1. Write a Function to classify a person’s age group: Child, Teen, Adult, senior
+
+def classify(age):
+    if age >=0 and age <=13:
+        return "you are a child"
+    elif age >=14 and age <=19:
+        return "you are a teen"
+    elif age >=20 and age <=59:
+        return "you are a adult"
+    elif age >=60 and age<=200:
+        return "you are a sinier"
+    else:
+        
+classify(13)
+
+-------------------------------------------
+output:
+
+'you are a child'
+
+____________________________________________________
+
+#Q3. Write a function to check if a number is within a given range (1-100). 
+
+def range(number):
+    if number >= 1 and number <= 100:
+        return True
+    else:
+        return False
+range(0)
+
+-----------------------------------------------------
+
+output:
+
+False
+
+________________________________________________________
+
+#Q6. Write a function to print all numbers divisible by 7 but not by 5 from 1-100. 
+def divide7not5():
+    for num in range(1, 101):
+        if num % 7 == 0 and num % 5 != 0:
+            print(num)
+divide7not5()
+
+------------------------------------------------------
+output:
+7
+14
+21
+28
+42
+49
+56
+63
+77
+84
+91
+98
+
+_______________________________________________________
+
+#Q7. Print a pattern star like this: 
+#* 
+#** 
+#* 
+#** 
+
+for i in range(1, 3):
+    print('*' * i)
+
+for i in range(2, 0, -1):
+    print('*' * i)
+
+---------------------------------------------------------
+
+output:
+
+*
+**
+**
+*
+
+________________________________________________________
+
+#Q8. print a pattern like this: 
+#*** 
+#** 
+#* 
+#** 
+#* 
+for i in range(3, 0, -1):
+    print('*' * i)
+    
+for i in range(2, 0, -1):
+    print('*' * i)
+
+-------------------------------------------------------
+
+output:
+
+***
+**
+*
+**
+*
+
+_______________________________________________________
+
+#Q10. Create a function to count the number of vowels and consonants in a string. 
+#String = “The quick brown fox jumps over the lazy dog” 
+
+
+string = "The quick brown fox jumps over the lazy dog"
+def vc_count(string):
+    vowels = "aeiouAEIOU"
+    vowelcount = 0
+    consonantcount = 0
+
+    for char in string:
+        if char.alphabate():  
+            if char in vowels:
+                vowelcount += 1
+            else:
+                consonantcount += 1
+
+    return vowelcount, consonantcount
+
+vowels, consonants = vc_count(string)
+print("Numbers of vowel:", vowels)
+print("Numbers of consonant:", consonants)
+
+---------------------------------------
+
+output:
+
+Numbers of vowel: 11
+Numbers of consonant: 24
+
+_____________________________________________
+
+#Q18.Create a class “Rectangle” with 
+#> length 
+#> width 
+class rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+rect= rectangle(5,10)
+print("length:",rect.length)
+print("width:",rect.width)
+
+------------------------------------------
+length: 5
+width: 10
+
+______________________________________________________
