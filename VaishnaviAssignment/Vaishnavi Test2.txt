@@ -1,0 +1,124 @@
+# Q1. How many Pillars of OOPs? Name them. 
+
+There are 4 pillars of OOPs
+Given below - 
+    
+1. Inheritance
+2. Encapsulation
+3. Polymorphism
+4.Data Abstraction
+
+-----------------------------
+
+# Q2. What is Overriding and Overloading.
+
+Overriding means - A child class provides its own implementation of a method that is already defined in the parent class.
+
+Overloading means - Allows a class to have multiple methods with the exact same name, but with different parameters. 
+
+---------------------------
+
+# Q3. What is Encapsula on in OOPs? 
+
+Encapsulation means wrap a data and method togther into single unit and categorizing direct access to data.
+
+----------------------
+
+#Q4. How many types of Inheritance? Name them.
+
+There are 5 types of inheritance - 
+
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multilevel Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+---------------------
+
+#Q5. How many types of Case? Name them and give one example of each?
+
+There is a 3 types of a case in Python -
+
+1.PascalCase - class
+2.camelCase - variable
+3.snake_case - method 
+
+-----------------------------
+
+#Q6. What is class in OOPs and write some key points.
+
+Class is blueprint or template used to create object.
+
+Key Points -
+    
+1.Can contains variable and method
+2.Naming Variable: PascalCase
+
+----------------------------
+
+#Q7. What is object in OOPs and some key points?
+
+Object is an instance of any class.
+
+Key Points - 
+1.Memory allocated if object is created
+2.Can access variables and methods
+
+------------------------------
+
+# Q8. How many types of Variables in OOPs? 
+
+There are 2 types of variables in OOPs.
+
+----------------------
+
+# Q17. What is mode “w” and mode “a” in writing files? 
+
+In writting files 'w' mode means writting files and 'a' mode means append files.
+
+-------------------------
+
+#Q19. What is lambda func on ()? And methods of lambda () name?
+
+A lambda function is unnamed small Function.
+
+-----------------------
+
+# Q22. Given a list of words extract words, extract words that contains the letter ‘e’ Words= [“tree”,” book”,” python”,” sky”]
+
+Words= ["tree","book","python","sky"]
+[ch for ch in words if 'e' in ch]
+
+---------------------------
+
+#Q18. What is difference between “w” and “x” mode in writting files? 
+
+"w" mode -
+
+1. opens a file for writing only
+2. if the file not exist,a new files is created.
+
+"x" mode -
+
+1. open a file for creation
+2. if the file not exist,a new files is created.
+
+-----------------------------------
+
+# Q16. Write a program to read CSV file using Python?
+
+fileName = r"C:\Users\Ajit Mohire\Desktop\Data.txt"
+
+file = open(fileName,'r')
+
+reader = csv.reader(file)
+print(reader)
+
+------------------------
+
+# Q21. Extract all vowels from the string using list comprehension: text “Comprehension”? 
+
+text = "Comprehension"
+[ch for ch in text if ch in "aeiouAEIOU"]
+
