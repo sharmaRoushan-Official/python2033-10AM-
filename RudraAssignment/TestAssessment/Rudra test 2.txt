@@ -74,19 +74,19 @@ there are three steps to read the file
 --------------------------------------------------
 --------------------------------------------------
 
-Q13. How many steps to read a file using python? Write steps?
-there are three steps to read the file
+Q14. How many steps to write a file using python? Write steps?
+there are three steps write a file
 
-1.open file: file = open("file.txt",'r')
+open the file: file = open("file.txt",'w')
 
-2.read the file: content = file.read() print(content)
+write the file: file.write("hello rudra")
 
-3.close the file file.close()
+close the file: file.close()
 
 ---------------------------------------------------
 ---------------------------------------------------
 
-##### Q15. Write code to checking files is exists or not in your pc drive?
+Q15. Write code to checking files is exists or not in your pc drive?
 
 import os
 
@@ -101,7 +101,7 @@ output:
 --------------------------------------------------
 --------------------------------------------------
 
-##### Q16. Write a program to read CSV file using Python? 
+Q16. Write a program to read CSV file using Python? 
 
 import csv
 file11 = r"C:\Users\vt998\Documents\FrameView.csv"
@@ -130,7 +130,7 @@ difference:
 ----------------------------------------------------------
 ----------------------------------------------------------
 
-##### Q20. Write a lambda that checks if a string starts with “A”? [“apple”,” carrot”,” Apple”] 
+Q20. Write a lambda that checks if a string starts with “A”? [“apple”,” carrot”,” Apple”] 
 word11 = ["apple", " carrot", " Apple"]
 A = lambda s: s.strip().startswith("A")
 print(list(map(A, word11)))
@@ -142,7 +142,7 @@ output:
 ----------------------------------------------------------
 ----------------------------------------------------------
 
-##### Q21. Extract all vowels from the string using list comprehension: text “Comprehension”? 
+Q21. Extract all vowels from the string using list comprehension: text “Comprehension”? 
 
 text111= "Comprehension"
 vovel=[ch for ch in text111 if ch in "aeiouAEIOU"]
@@ -156,7 +156,7 @@ output:
 ----------------------------------------------------------
 ----------------------------------------------------------
 
-##### Q22. Given a list of words extract words, extract words that contains the letter ‘e’
+Q22. Given a list of words extract words, extract words that contains the letter ‘e’
 
 words= ["tree", "book", "python","sky"]
 
