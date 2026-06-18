@@ -1,0 +1,175 @@
+Q1. How many Pillars of OOPs? Name them.
+
+there are four pillers in oops
+
+1.inheritance 
+2.Encapsulation 
+3.data abstraction 
+4.polymorphism
+
+--------------------------------------
+--------------------------------------
+
+Q3. What is Encapsulation in OOPs?
+the encapsulation is a part of oops, it is wrapping data into a single unit and restrict to direct access to data.
+
+-------------------------------------------
+-------------------------------------------
+
+Q4. How many types of Inheritance? Name them.
+five types of inharitance
+
+1.single inharitance
+2.multiple inharitance
+3.multilevel inharitance
+4.hybride inharitance
+5.haiaarchil inharitance
+
+------------------------------------------------
+------------------------------------------------
+
+Q8. How many types of Variables in OOPs?
+there are two types of veriables
+
+1.instance veriable
+2.class veriable
+
+------------------------------------------------
+------------------------------------------------
+
+Q9. How many types of Methods in OOPs Name Them?
+there are three types of methods in oops
+
+1.class method
+2.instance method
+3.static method
+
+--------------------------------------------------
+--------------------------------------------------
+Q10. Name access modifier in Encapsulation?
+there are three access modifier in encapsulation
+
+1.public
+2.private
+3.protected
+
+-------------------------------------------------
+-------------------------------------------------
+Q12. What is super () in OOPs
+
+it is a used in parent class inside the child class
+
+-------------------------------------------------
+-------------------------------------------------
+
+Q13. How many steps to read a file using python? Write steps?
+there are three steps to read the file
+
+1.open file: file = open("file.txt",'r')
+
+2.read the file: content = file.read() print(content)
+
+3.close the file file.close()
+
+--------------------------------------------------
+--------------------------------------------------
+
+Q13. How many steps to read a file using python? Write steps?
+there are three steps to read the file
+
+1.open file: file = open("file.txt",'r')
+
+2.read the file: content = file.read() print(content)
+
+3.close the file file.close()
+
+---------------------------------------------------
+---------------------------------------------------
+
+##### Q15. Write code to checking files is exists or not in your pc drive?
+
+import os
+
+if os.path.exists(r"D:\Games\Call of Duty - Modern Warfare II\_start_singleplayer.bat"):
+    print("path is exist")
+else:
+    print("path is not exist")
+-----------
+output:
+	path is exist
+
+--------------------------------------------------
+--------------------------------------------------
+
+##### Q16. Write a program to read CSV file using Python? 
+
+import csv
+file11 = r"C:\Users\vt998\Documents\FrameView.csv"
+file = open(file11,'r')
+read11 = csv.reader(file)
+print(read11)
+
+--------------------------------------------------------
+--------------------------------------------------------
+
+Q17. What is mode “w” and mode “a” in writing files?
+
+1.w(write) = it is create a file and overwrite a file.
+
+2.a(append)= it is an add data in end of the file
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+Q18. What is difference between “w” and “x” mode in writing files?
+difference:
+
+1.w = it is a create a file or overwrite an existing file.
+2.x = it is a create file if error exists
+
+----------------------------------------------------------
+----------------------------------------------------------
+
+##### Q20. Write a lambda that checks if a string starts with “A”? [“apple”,” carrot”,” Apple”] 
+word11 = ["apple", " carrot", " Apple"]
+A = lambda s: s.strip().startswith("A")
+print(list(map(A, word11)))
+------------------
+----------
+output:
+	[False, False, True]
+
+----------------------------------------------------------
+----------------------------------------------------------
+
+##### Q21. Extract all vowels from the string using list comprehension: text “Comprehension”? 
+
+text111= "Comprehension"
+vovel=[ch for ch in text111 if ch in "aeiouAEIOU"]
+print(vovel)
+
+----------------------------------------------------------
+------------
+output:
+	['o', 'e', 'e', 'i', 'o']
+
+----------------------------------------------------------
+----------------------------------------------------------
+
+##### Q22. Given a list of words extract words, extract words that contains the letter ‘e’
+
+words= ["tree", "book", "python","sky"]
+
+e1= [word.strip()for word in words if 'e' in word]
+print(e1)
+
+-------------
+-------------
+
+output:
+	['tree']
+
+----------------------------------------------------------
+
+===========================================================
+===========================================================
