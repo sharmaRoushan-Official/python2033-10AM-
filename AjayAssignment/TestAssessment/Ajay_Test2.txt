@@ -1,0 +1,165 @@
+=========================================================================================================================================================================
+
+Q1. There are 4 Pillars of OOPs as follows;
+
+   1. Inheritance:
+  
+                  i. Single Inheritance
+                 ii. Multiple Inheritance
+                iii. Multilevel Inheritance
+                 iv. Hierarchal Inheritance
+                  v. Hybrid Inheritance
+   
+   2. Encapsulation:
+        
+                    i. Public
+                   ii. Private
+                  iii. Protected
+      
+   3. Polymorphism:
+     
+                   i. Overloading
+                  ii. Overriding
+     
+   4. Data Abstraction
+
+=======================================================================================================================================================================
+
+Q2. Overloading: 
+                is defined as accumulation of data and data type, as the name explains it accumulates multiple data and its type whether with same operator or multiple operator in a single class.
+* Child class possesses, same operator behaves differently as per the Data type.
+
+Overriding: 
+           is overwriting or modifying the parent class to a new child class which possesses updated advanced or new logic than the parent class.
+* It cannot be achieved in a single class as overloading does as it requires two or more/multiple class to assign the modification or change in the child class.
+* In run time Python decides which method to execute.
+
+=======================================================================================================================================================================
+
+Q3. Encapsulation:
+
+Encapsulation means wrapping of data and method together in a single unit(class) and restricting direct access to the data.
+
+Encapsulation = Data Hiding + Data protection
+Without Encapsulation data is unsafe, no control, have bugs,etc.
+With Encapsulation data is Protected, Controlled, Secured,etc.
+Example : ATM Machine: => Cannot access data/account directly. => Need a method to access. => Balance is hidden.
+
+=======================================================================================================================================================================
+
+Q4. Types of Inheritance:
+
+              i. Single Inheritance
+             ii. Multiple Inheritance
+            iii. Multilevel Inheritance
+             iv. Hierarchal Inheritance
+              v. Hybrid Inheritance
+
+=======================================================================================================================================================================
+
+Q5. Types of case in programming language:
+
+Types of Case |　Example　　　｜	　Description　｜
+
+camelCase	studentData	First word starts with lowercase and following each word starts with a capital letter.
+
+PascalCase	StudentData	Each word starts with a capital letter along with the first word
+
+snake_case	student_data	words are in lowercase seperated by undescore sign (_)
+
+=======================================================================================================================================================================
+
+Q6. Class: A class is defined as a Blueprint or Template that is used to create objects in OOPs.
+
+Key Points:
+
+* Is defined using class keyword
+* It contains variables and method
+* Variables are written in PascalCase
+
+=======================================================================================================================================================================
+
+Q7. Object: An object is an instance of any class.
+
+syntax: s1 = Student()
+
+Key Points:
+
+> Memory is allocated as soon as the object is created.
+> It can access class method and variables.
+
+=======================================================================================================================================================================
+
+Q8. Types of Variables in OOPs:
+
+1. Instance Variable: defined using (self)
+
+example: self.name = "ajay"
+
+2. Class Variable: shared among all objects
+
+example: college = "MIT,Pune"
+
+=======================================================================================================================================================================
+
+Q9. Types of Methods used in OOPs:
+
+1. Instance Method
+2. Class Method
+3. Static Method
+
+=======================================================================================================================================================================
+
+Q11. Rules of Overriding:
+
+1. Parent and child method names must be same.
+2. Signature should be same i.e same Method name and Parameters.
+3. Overriding is possible only if there is an inheritance between parent and child class.
+4. As the name suggests child method overwrites/overrides the parent method an only child method is executed.
+
+=======================================================================================================================================================================
+
+Q12. Super in OOPs:
+
+* Super is used to call the Parent class method in the child class.
+* Thus it has features of Parent class as well as added/updated functions of the child class in it.
+
+=======================================================================================================================================================================
+
+Q14. Steps to write a file using Python:
+
+1. Open file: Open()
+2. Write data into the file.: write()
+3. Close the file.: close()
+
+=======================================================================================================================================================================
+
+Q18. Difference between 'w' and 'x' in writing files:
+
+* 'w' stands for "write" that creates a file or overwrites the existing file whereas;
+
+* x	stands for "create" in which a file is created i.e. new file, or error if it exists.
+
+
+=======================================================================================================================================================================
+
+
+Q19. Lambda Function :
+
+A lambda function is an anonymous(Unnamed) function.
+
+Methods of lambda:
+
+1. map()
+2. filter()
+3. reduce()
+4. apply()
+
+=======================================================================================================================================================================
+
+Q21. 
+
+L = "Comprehension"
+[ch for ch in L if ch in "aeiouAEIOU"]
+
+=======================================================================================================================================================================
