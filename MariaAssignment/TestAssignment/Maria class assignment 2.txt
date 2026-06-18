@@ -1,0 +1,151 @@
+                                                                  Assignment 2
+
+
+#Q1. How many Pillars of OOPs? Name them.
+ANS:
+* There are 4 pillars of OOPs namely:
+1) Inheritance:-
+   * Single / Simple Inheritance
+   * Multiple Inheritance
+   * Multilevel Inheritance
+   * Hierarichal Inheritance
+   * Hybrid Inheritance
+2) Encapsulation:-
+   * Private method
+   * Protected method
+   * Public method
+3) Data Abstraction
+4) Polymorphism
+   * Duck Typing
+   * Overriding
+   * Overloading
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno.3)What is Encapsula􀆟on in OOPs?
+ANS:-
+ Encapsulation means wrapping of data and methods into a single unit and restricting direct access to data.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q21. Extract all vowels from the string using list comprehension: text “Comprehension”?
+ANS:-
+## Method 1:
+text = "Comprehension"
+vowels = []
+for i in text:
+    if i in "aeiouAEIOU":
+        vowels.append(i)
+print(vowels)
+## Method 2: Using list comprehension.
+text = "Comprehension"
+[i for i in text if i in "aeiouAeiou"]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q20. Write a lambda that checks if a string starts with “A”? [“apple”,” carrot”,” Apple”]
+ANS:- 
+b = ["apple","carrot","Apple"]
+start_with_A = lambda s:s.lower().startswith("a")
+result = list(filter(start_with_A,b))
+print(result)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q9. How many types of Methods in OOPs Name Them?
+ANS:-
+ There are 3 types of methods in OOPs:
+1) Instance method 
+2) Class method
+3) Static method
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q17. What is mode “w” and mode “a” in wri􀆟ng files?
+ The mode "w" in writing files means to write a data in a file.
+ The mode "a" in writing files means to append that is to add data in a file.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q16. Write a program to read CSV file using Python?
+ANS:-
+import csv
+file = open("C:\\Users\\DELL\\Desktop\\python.txt","r")
+reader = csv.reader(file)
+print(reader)
+for row in reader:
+    print(row)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q15. Write code to checking files is exists or not in your pc drive?
+ANS:-
+try:
+    file = open("C:\\Users\\DELL\\Desktop\\python.txt","r")
+    content = file.read()
+    print(content)
+    file.close()
+except FileNotFoundError:
+    print("No such file")
+else:
+    print(" Your code runned successfully")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q4. How many types of Inheritance? Name them.
+ANS:-
+# There are 5 types of Inheritance in OOPs:
+1) Single/Simple Inheritance:- A single child class inherits from single parent class.
+2) Multiple Inheritance:- A child class inherits from more than one parent class.
+3) Multilevel Inheritance :- This inheritence goes from level to level.
+4) Hierarichal Inheritance :- In this type of inheritance many child class inherit from a single parent class.
+5) Hybrid Inheritance :- It is a combination of two types of inheritance
+   example: Hierarichal inheritance + Muptiple inheritance
+             Multiple Inheritance + Multilevel Inheritance
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q8. How many types of Variables in OOPs?
+ANS:-
+There are 2 types of variable in OOPs:
+1) Instance variable
+2) Class variable
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno.19 What is lambda function()? write names of lambda method.
+ANS:-
+A lambda function is a small anonymous (unnamed) function.
+The names of lambda method are:
+1) map()
+2) filter()
+3) reduce()
+4) apply()
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno.13)How many steps are there to read a file  using python? write steps.
+ANS:-
+file = open("C:\\Users\\DELL\\Desktop\\python.txt","r")
+content = file.read()
+print(content)
+file.close()
+# There are 4 steps to open a file :
+Step 1: To copy the path of a file.
+Step 2: Then open a file using open().
+Step3: To read a file: read().
+Step 4: To close a file: close()
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno.14) How many steps are there to write a file  using python? write steps.
+ANS:-
+file_path = r"C:\\Users\\DELL\\Desktop\\python.txt"
+file = open(file_path,"w")
+file.write("\n HEllo")
+file.close()
+There are  4 steps to write a file using python:
+Step 1: To copy the path of a file.
+Step 2: To open a file .
+Step 3: To write a data in a  file: write()
+Step 4: To close a file: close()
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno12) What is super() in OOPs?
+ANS:-
+The super() in OOPs is used to call the parent class inside the child class.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno.5)How many types of case ? Name them and give one example each
+ANS:-
+There are 3 types of case in python namely:
+1) snake_case:
+Example : 
+2) PascalCase:
+Example:
+3) camelCase:
+Example: 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Qno18) What is difference between "w" and "x" mode in writing files ?
+ANS:-
+The difference between the "w" and "x" mode in writing files in python is:
+The "w" mode in writing files is used to create a file whereas the "x" mode in writing file is used to create a file if error exist.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+            
+
