@@ -1,0 +1,187 @@
+Q1. How many Pillars of OOPs? Name them. 
+
+=> OOps have Four Pillars-
+1. Inheritance:
+  a.simple or single inheritance
+  b.multiple inheritance
+  c.multilevel inheritance
+  d.hybrid inheritance
+  e.hierarical inheritance
+
+2. Polymorphyism
+  a.overriding
+  b.pverloading
+
+3.Encapsulation
+  a.Public
+  b.Protected
+  c.Private
+
+4.Data Abstraction
+
+ 
+
+Q2. What is Overriding and Overloading. 
+
+=>1.Overloading - In Overloading it has the same method in the single or same class with different parameters.
+
+  2.Overrriding- In Overriding it has the same method name of parent class with respect to child class and provide its own implementation.
+
+
+
+Q3.what is Encapsulation in OOPs? 
+
+=>Encapsulation in oops is wrapping or securing the data/method or restrict from accessing by third person.
+    it has three types:
+     a.Public
+     b.Protected
+     c.Privat
+   
+
+Q4. How many types of Inheritance? Name them. 
+
+=> Inheritance has Five types :
+  a.simple or single inheritance
+  b.multiple inheritance
+  c.multilevel inheritance
+  d.hybrid inheritance
+  e.hierarical inheritance
+
+
+
+Q5. How many types of Case? Name them and give one example of each? 
+
+=> There are three types of cases in python:
+
+   a.Pascal case - All words First letter is capital
+      ex-StudentDetails
+
+   b.camel case - first word's letter is small and rest word's letters are capital
+      ex-addvalue
+
+   c.snake case - word's letter are in small case but has separated by underscore 
+       ex-length_breadth
+
+
+
+Q6. What is class in OOPs and write some key points. 
+
+=> -Class in OOps is also known as Blueprint:
+   -It is used as key name (class) to access the OOPs functionality
+   -it includes methods in it 
+
+
+Q7. What is object in OOPs and some key points? 
+
+=> -object in OOps is known as thing's 
+   -it is instance of any class
+   -it occupies the storage to store the data
+   -it can access the class variable and methods
+
+
+Q8. How many types of Variables in OOPs? 
+
+=> There are two types of variables in OOps:
+   1.Instance Varialbe
+     - it can access through self keyword but need __init__  constructor to create
+     - gets the data of the same object
+     self.name=name 
+   
+   2.Class variable
+     - it can access through cls keyword 
+     - data accessible to different object 
+     - data is in the  class but same  for different objects
+     cls.college=college name
+ 
+
+Q9. How many types of Methods in OOPs Name Them? 
+
+=> There are three types of method in OOps :
+ 
+ 1.Instance method
+  - it can access through self keyword and it has no decorator
+
+ 2. Class method
+  - it can access through cls keyword and decorator @classmethod
+
+ 3. static method 
+ - doesn't have any keyword just use decorator @staticmethod
+
+
+Q11. Write Rules of Overriding? 
+ 
+=>In Overriding it has the same method name of parent class with respect to child class and provide its own implementation.
+  
+ - method names should be same 
+ - parameters should be same
+ - need to have different class 
+ 
+ex- class animal():
+       def sound(self):
+           print("animal sound")
+    class dog(animal):
+       def sound(self):
+           print("dog barks")
+    class cat(animal):
+       def sound(self):
+           print("cat meow:)
+d=dog()
+d.sound
+c=cat()
+c.sound
+
+
+Q12. What is super () in OOPs 
+ 
+=>super() is a built in function in python to access the method and variables from parents class to child class.
+  
+ex- class employee():
+         def work(self):
+             print("need to do hardwork")
+    class manager(employee):
+         def job(self):
+             print("Very responsible job")
+             super().work()
+
+m = Manager()
+m.job()
+
+
+
+Q13. How many steps to read a file using python? Write steps? 
+
+=> to read a file in python:
+  1. first create a variable store the file path in it
+  2. then open the variable/file using open() with mode 'r'
+  3. then read the file using read()
+  4. print the content of that file 
+  5. close the file using close()
+
+
+Q14. How many steps to write a file using python? Write steps? 
+
+=> to write a file in python:
+  1.first create a variable store the file path in it
+  2. then open the variable/file using open() with mode 'w'
+  3. then write the file using write()
+  4.close the file using close()
+
+
+#Q15. Write code to checking files is exists or not in your pc drive? 
+file=r"C:\Users\Yash\OneDrive\Desktop\check1.txt"
+try:
+    file1=open(file,"r")
+    print("file exist")
+    content=file1.read()
+    print(content)
+    file1.close()
+except FileNotFoundError:
+    print("file does not exists")
+
+
+#Q21. Extract all vowels from the string using list comprehension: text “Comprehension”? 
+name1="Comprehension"
+vowels=[i for i in name1 if i in "aeiouAEIOU" ]
+print(vowels)
+    
+    
