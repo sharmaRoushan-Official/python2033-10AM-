@@ -1,0 +1,225 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red133\green92\blue145;\red23\green23\blue23;
+\red185\green188\blue186;\red193\green82\blue5;\red78\green117\blue165;\red84\green85\blue84;\red137\green154\blue45;
+\red108\green101\blue255;\red135\green0\blue2;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c59608\c44706\c63529;\cssrgb\c11765\c11765\c11765;
+\cssrgb\c77255\c78431\c77647;\cssrgb\c80784\c40392\c0;\cssrgb\c37647\c53725\c70588;\cssrgb\c40392\c40784\c40392;\cssrgb\c60392\c65882\c22745;
+\cssrgb\c50196\c50196\c100000;\cssrgb\c60784\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww34360\viewh20960\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 Q1. Write a Function to classify a person\'92s age group: Child, Teen, Adult, senior.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 find_age_group\cf5 \strokec5 (\cf7 \strokec7 age\cf5 \strokec5 ):\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb4     \cf3 \strokec3 if\cf5 \strokec5  \cf7 \strokec7 age\cf5 \strokec5  \cf8 \strokec8 <\cf5 \strokec5  \cf7 \strokec7 5\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "Child"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 elif\cf5 \strokec5  \cf7 \strokec7 age\cf8 \strokec8 >\cf7 \strokec7 5\cf5 \strokec5  \cf8 \strokec8 and\cf5 \strokec5  \cf7 \strokec7 age\cf5 \strokec5  \cf8 \strokec8 <\cf7 \strokec7 18\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "Teen"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 elif\cf5 \strokec5  \cf7 \strokec7 age\cf5 \strokec5  \cf8 \strokec8 >\cf5 \strokec5  \cf7 \strokec7 18\cf5 \strokec5  \cf8 \strokec8 and\cf5 \strokec5  \cf7 \strokec7 age\cf5 \strokec5  \cf8 \strokec8 <\cf7 \strokec7 60\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "Adult"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 elif\cf5 \strokec5  \cf7 \strokec7 age\cf5 \strokec5  \cf8 \strokec8 >\cf5 \strokec5  \cf7 \strokec7 60\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "Senior"\cf5 \strokec5 )\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 find_age_group\cf5 \strokec5 (\cf7 \strokec7 26\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs40 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Q2. Write a Function to Check is string is palindrome.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 check_palindrom\cf5 \strokec5 (\cf7 \strokec7 string\cf5 \strokec5 ):\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb4     \cf3 \strokec3 if\cf5 \strokec5  \cf7 \strokec7 string\cf5 \strokec5  \cf8 \strokec8 ==\cf5 \strokec5  \cf7 \strokec7 string\cf5 \strokec5 [::\cf8 \strokec8 -\cf7 \strokec7 1\cf5 \strokec5 ]:\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "\cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 string\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9  is a palindrom"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 else\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "\cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 string\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9  is not a palindrom"\cf5 \strokec5 )\cb1 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 check_palindrom\cf5 \strokec5 (\cf9 \strokec9 "ABAD"\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs40 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Q3. Write a function to check if a number is within a given range (1-100).\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 check_range\cf5 \strokec5 (\cf7 \strokec7 num\cf5 \strokec5 ):\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb4     \cf3 \strokec3 if\cf5 \strokec5  \cf7 \strokec7 num\cf5 \strokec5  \cf8 \strokec8 in\cf5 \strokec5  \cf11 \cb4 \strokec11 range\cf5 \cb4 \strokec5 (\cf7 \strokec7 1\cf5 \strokec5 ,\cf7 \strokec7 101\cf5 \strokec5 ):\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "In range"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 else\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf9 \strokec9 "Not in range"\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 check_range\cf5 \strokec5 (\cf7 \strokec7 200\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs40 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Q4. Write a function to find the sum of numbers from 1 to N.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 find_sum\cf5 \strokec5 (\cf7 \strokec7 n\cf5 \strokec5 ):\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb4     \cf7 \strokec7 sum\cf5 \strokec5  \cf8 \strokec8 =\cf7 \strokec7 0\cf5 \cb1 \strokec5 \
+\cb4     \cf3 \strokec3 for\cf5 \strokec5  \cf7 \strokec7 i\cf5 \strokec5  \cf3 \strokec3 in\cf5 \strokec5  \cf11 \cb4 \strokec11 range\cf5 \cb4 \strokec5 (\cf7 \strokec7 1\cf5 \strokec5 ,\cf7 \strokec7 n\cf8 \strokec8 +\cf7 \strokec7 1\cf5 \strokec5 ):\cb1 \
+\cb4         \cf7 \strokec7 sum\cf5 \strokec5  \cf8 \strokec8 +=\cf7 \strokec7 i\cf5 \cb1 \strokec5 \
+\cb4     \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "Sum is :\cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 sum\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9 "\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 find_sum\cf5 \strokec5 (\cf7 \strokec7 5\cf5 \strokec5 )\cb1 \
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Q15. Write a function to convert Celsius to Fahrenheit.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 convert_cel_farn\cf5 \strokec5 (\cf7 \strokec7 val\cf5 \strokec5 ):\cb1 \
+\cb4     \cf7 \strokec7 far_val\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  (\cf7 \strokec7 val\cf5 \strokec5  \cf8 \strokec8 *\cf5 \strokec5  \cf7 \strokec7 9\cf8 \strokec8 /\cf7 \strokec7 5\cf5 \strokec5 ) \cf8 \strokec8 +\cf5 \strokec5  \cf7 \strokec7 32\cf5 \cb1 \strokec5 \
+\cb4     \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "val c is \cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 far_val\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9  farenhiet."\cf5 \strokec5 )\cb1 \
+\
+\
+\
+\cf6 \cb4 \strokec6 convert_cel_farn\cf5 \strokec5 (\cf7 \strokec7 23\cf5 \strokec5 )\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+Q.16. Write a program to open and read a file named \'93data.txt\'94\
+Requirements:\
+> Display file content\
+> If file not exists, print file not found error\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 with\cf5 \strokec5  \cf6 \strokec6 open\cf5 \strokec5 (\cf9 \strokec9 "data.txt"\cf5 \strokec5 ,\cf9 \strokec9 "r"\cf5 \strokec5 ) \cf3 \strokec3 as\cf5 \strokec5  \cf7 \strokec7 file\cf5 \strokec5 :\cb1 \
+\cb4     \cf3 \strokec3 if\cf5 \strokec5  \cf8 \strokec8 not\cf5 \strokec5  \cf7 \strokec7 file\cf5 \strokec5 :\cb1 \
+\cb4         \cf3 \strokec3 raise\cf11 \cb4 \strokec11 (FileNotFoundError)\cf5 \cb1 \strokec5 \
+\cb4     \cf3 \strokec3 else\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf7 \strokec7 file\cf5 \strokec5 .\cf6 \strokec6 read\cf5 \strokec5 ())\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+
+\fs48 Q17.Create a function check_positive(num)\
+Requirements:\
+> Raise a ValueError if number is negative.\
+> Otherwise print valid number
+\fs42 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 check_positive\cf5 \strokec5 (\cf7 \strokec7 num\cf5 \strokec5 ):\cb1 \
+\cb4     \cf3 \strokec3 if\cf5 \strokec5  \cf7 \strokec7 num\cf5 \strokec5  \cf8 \strokec8 <\cf5 \strokec5  \cf7 \strokec7 0\cf5 \strokec5 :\cb1 \
+\cb4         \cf3 \strokec3 raise\cf5 \strokec5  \cf11 \cb4 \strokec11 ValueError\cf5 \cb4 \strokec5 (\cf9 \strokec9 "Number is negative"\cf5 \strokec5 )\cb1 \
+\cb4     \cf3 \strokec3 else\cf5 \strokec5 :\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf7 \strokec7 num\cf5 \strokec5 )\cb1 \
+\
+\
+\cf6 \cb4 \strokec6 check_positive\cf5 \strokec5 (\cf7 \strokec7 3\cf5 \strokec5 )\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs56 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs42 Q18.Create a class \'93Rectangle\'94 with\
+> length\
+> width\
+Add method area() to calculate and display the area.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 class\cf5 \strokec5  \cf11 \cb4 \strokec11 Rectangle\cf5 \cb4 \strokec5 ():\cb1 \
+\cb4     \cf3 \strokec3 def\cf5 \strokec5  \cf3 \strokec3 __init__\cf5 \strokec5 (\cf7 \strokec7 self\cf5 \strokec5 , \cf7 \strokec7 length\cf5 \strokec5 , \cf7 \strokec7 width\cf5 \strokec5 ):\cb1 \
+\cb4         \cf7 \strokec7 self\cf5 \strokec5 .\cf7 \strokec7 length\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf7 \strokec7 length\cf5 \cb1 \strokec5 \
+\cb4         \cf7 \strokec7 self\cf5 \strokec5 .\cf7 \strokec7 width\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf7 \strokec7 width\cf5 \cb1 \strokec5 \
+\
+\cb4     \cf3 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 area\cf5 \strokec5 (\cf7 \strokec7 self\cf5 \strokec5 ):\cb1 \
+\cb4         \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 " Area is \cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 self\cf5 \strokec5 .\cf7 \strokec7 length\cf5 \strokec5  \cf8 \strokec8 *\cf5 \strokec5  \cf7 \strokec7 self\cf5 \strokec5 .\cf7 \strokec7 width\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9 "\cf5 \strokec5 )\cb1 \
+\
+\
+\
+\cf7 \cb4 \strokec7 rec\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf11 \cb4 \strokec11 Rectangle\cf5 \cb4 \strokec5 (\cf7 \strokec7 12\cf5 \strokec5 ,\cf7 \strokec7 24\cf5 \strokec5 )\cb1 \
+\cf7 \cb4 \strokec7 rec\cf5 \strokec5 .\cf6 \strokec6 area\cf5 \strokec5 ()\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs38 Q10. Create a function to count the number of vowels and consonants in a string.\
+String = \'93The quick brown fox jumps over the lazy dog\'94\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs32 \cf7 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 string\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf9 \strokec9 "The quick brown fox jumps over the lazy dog"\cf5 \cb1 \strokec5 \
+\
+\
+\cf3 \cb4 \strokec3 def\cf5 \strokec5  \cf6 \strokec6 count_vowels_cons\cf5 \strokec5 (\cf7 \strokec7 string\cf5 \strokec5 ):\cb1 \
+\cb4     \cf7 \strokec7 vowels\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf7 \strokec7 0\cf5 \cb1 \strokec5 \
+\cb4     \cf7 \strokec7 consonant\cf5 \strokec5  \cf8 \strokec8 =\cf5 \strokec5  \cf7 \strokec7 0\cf5 \cb1 \strokec5 \
+\cb4     \cf3 \strokec3 for\cf5 \strokec5  \cf7 \strokec7 i\cf5 \strokec5  \cf3 \strokec3 in\cf5 \strokec5  \cf7 \strokec7 string\cf5 \strokec5 :\cb1 \
+\cb4         \cf3 \strokec3 if\cf5 \strokec5  \cf7 \strokec7 i\cf5 \strokec5 .lower() \cf8 \strokec8 in\cf5 \strokec5  [\cf9 \strokec9 "a"\cf5 \strokec5 ,\cf9 \strokec9 "e"\cf5 \strokec5 ,\cf9 \strokec9 "i"\cf5 \strokec5 ,\cf9 \strokec9 "o"\cf5 \strokec5 ,\cf9 \strokec9 "u"\cf5 \strokec5 ]:\cb1 \
+\cb4             \cf7 \strokec7 vowels\cf5 \strokec5  \cf8 \strokec8 +=\cf7 \strokec7 1\cf5 \cb1 \strokec5 \
+\cb4         \cf3 \strokec3 else\cf5 \strokec5 :\cb1 \
+\cb4             \cf7 \strokec7 consonant\cf5 \strokec5  \cf8 \strokec8 +=\cf7 \strokec7 1\cf5 \cb1 \strokec5 \
+\
+\cb4     \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "No of vowels is = \cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 vowels\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9 "\cf5 \strokec5 )\cb1 \
+\cb4     \cf6 \strokec6 print\cf5 \strokec5 (\cf3 \strokec3 f\cf9 \strokec9 "No of consonants =\cf10 \cb4 \strokec10 \{\cf7 \cb4 \strokec7 consonant\cf10 \cb4 \strokec10 \}\cf9 \cb4 \strokec9 "\cf5 \strokec5 )\cb1 \
+\
+\cf6 \cb4 \strokec6 count_vowels_cons\cf5 \strokec5 (\cf7 \strokec7 string\cf5 \strokec5 )\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs42 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+
+\fs40 Q21. What is Encapsulation explain in details with valid example code?
+\fs42 \
+\
+Encapsulation is binding different attributes and methods with class. The attributes have different access leveles. They are public, protected and private.\
+Public attributes and methods can be acceeses by any child class or user. Protected attributes, methods can be accessed by only direct child class. This is for internal use of class, users of the class need not know about this.\
+private attributes and methods cant be access by anyone except the class itself. They are mostly builtin functions. \
+    \
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
