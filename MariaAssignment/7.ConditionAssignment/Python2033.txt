@@ -1,0 +1,183 @@
+Python
+------------------------------------------------------
+
+C,C++,C#,Java, Python, Fortan, kotlin,C#
+-----------------------------------------------
+
+Python?
+-------------------------------------------------------------
+Python,C,C++,C# is a job oriented programming language.
+
+--------------------------------------------------------------
+
+Guido Van Rossum
+
+-------------------------------------------------------------------------------------------
+Python is general purpose, high level, Interpreted with easy syntax programming language.
+-----------------------------------------------------------------------------------------
+
+basic.c
+------------------------------
+
+# include <stdio.h>
+
+
+int main(){
+	printf("Hello world");
+	printf("Hello Ajay");
+
+	return false;
+
+}
+
+
+basic.exe[obj file ]-update this file  -> this file is usable for machine 
+
+
+
+ajay.c
+
+
+
+
+
+
+apple.c
+
+
+apple.exe
+-----------------------------------------------------------------------------
+
+basic.py
+------------------------------------------------
+print("hello world")  --> Hello world
+
+print("Hello Ajay") -- > Hello world
+
+
+----------------------------------------------------------------------------
+
+1. Compiler- It execute your code at once.: Ex- C, C++,C#
+
+
+2. Interpreter- It execute your code line by line. Ex:- Python, Java, JavaScript, etc
+
+
+-----------------------------------------------------------------------------------------
+
+source code - .py,.c,.java,.c#,.html
+|
+|
+Assembler
+|
+|
+object code (.obj)
+
+
+(.exe)
+
+-------------------------------------------------------------------------------------------------
+
+		Number system
+			|
+------------------------------------------------------------------------------------
+|			|			|			|
+1.Binary Number		2.Decimal Number	3.Octal Number 		4.Hex-decimal
+(0,1)- 2		(0-9)-10		(0-7)-8			(0-9,a-f)- 16
+---------------------------------------------------------------------------------------------------
+
+Python Course:
+----------------------
+Data Science- AI/ML- [Data Analyst + Machine Learning + Artificial Intelligence]
+Web Development[fullstack] - [Frontend + Backend + Data Base]+AWS
+Data Analyst
+Machine Learning
+AI
+Deep Learning
+NLP-[Natural language processing]
+OpenCV
+hacking, IoT-[Internet of Thing]
+Mixed Reality
+Virtual Reality
+Automation
+Testing,etc
+
+------------------------
+Framework
+--------------
+Django-most usable framework for AI/ML
+flask
+web2py
+cherrypie
+Dash
+falcon
+morepath
+pyknic
+-------------------------------------------------------------------------
+
+IDE-[Integrated Development and Environment]
+------------------
+VS code
+Anoconda
+Jupyter 
+PyCharm
+Google Bard
+Antigravity
+-----------------------------------------------------------------------------------------
+
+python Course Content:
+--------------------------------------------------
+1.Python Basic
+2.python Data Types
+3.String data type
+4.List data type
+5.Tuple Data type
+6.set data type
+7.Dictionary data type
+8.Condition [if,elif,else]
+9.Loop
+	i).Entry Controlled loop
+		i). For Loop
+		ii). While loop
+		Control Overflow [break and continue]
+	ii).Exit Controlled Loop:[C,C++,Java, JavaScript]
+	
+10.function
+	i). In-build Function
+	ii). Derived Function [User-Defined function]
+11.Exception Handling
+12.OOPS[Object Oriented Programming Strcuture]
+	Class and Object
+	4-Pillars of OOPs
+	i). Inheritance
+		i). Single/simple Inheritance
+		ii). Mutilevel Inheritance
+		iii). Multiple Inheritance
+		iv). Hierarchical Inheritance
+		v). Hybrid Inheritance
+	ii).Polymorphism
+		i).overloading
+		ii).Overriding
+	iii).Encapsulation
+	iv). Data Abstraction
+13. File Handling
+	i). Reading Files
+		[txt,pdf,xml,json, xslx,doc]
+	ii). Writing Files
+		[txt,pdf,xml,json, xslx,doc]
+
+14. Lambda function
+
+15. List Comprehension
+
+16. Decorator in Python
+17. Generator
+18. APIs [application programming interface]
+19. JSON[Java Script object notation file]
+20. Minimal Project of Python
+
+
+
+
+
+
